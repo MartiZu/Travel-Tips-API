@@ -1,0 +1,204 @@
+body {
+  background-image: url("Cinque-Terre-Manarola.jpg");
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Playball";
+  /* font-size: 4.5rem; */
+  display: flex;
+  place-items: center;
+  place-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+
+#imgClass {
+  opacity: 80%;
+  opacity: 80%;
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  /* margin: 0; */
+  /* font-family: "Playball"; */
+  /* font-size: 4.5rem; */
+  /* display: flex;
+  place-items: center;
+  place-content: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* /* position: fixed;  */
+}
+
+h1 {
+  text-align: center;
+  font-size: 85px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.container {
+  position: absolute;
+  top: 10px;
+  left: 540px;
+}
+
+.placeHolder {
+  font-size: 25px;
+  color: palevioletred;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+
+.showFunFact {
+  font-size: 25px;
+  color: palevioletred;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  top: 5px;
+}
+
+.displaySection {
+  /* background: linear-gradient(135deg, var(--primary), var (--secondary)); */
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.displayFun {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+#first-div {
+  position: absolute;
+  bottom: 300px;
+  left: 80px;
+  background-color: #cccccc;
+  background-image: linear-gradient(white, pink);
+  box-shadow: 10px 10px;
+}
+
+#second-div {
+  position: absolute;
+  bottom: 70px;
+  right: 80px;
+  background-color: #cccccc;
+  background-image: linear-gradient(
+    rgba(238, 235, 153, 0.993),
+    rgba(255, 0, 0, 0.438)
+  );
+  height: 400px;
+  max-height: 380px;
+  box-shadow: 10px 10px;
+}
+
+#third-div {
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  background-color: #cccccc;
+  background-image: linear-gradient(white, pink);
+  box-shadow: 10px 10px;
+}
+#fourth-div {
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  background-color: #cccccc;
+  background-image: linear-gradient(white, pink);
+  box-shadow: 10px 10px;
+} 
+
+#randomButton {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 520px;
+  left: 450px;
+}
+
+#pick-button {
+  background-color: rgb(189, 45, 122);
+}
+
+button {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #b3e6ff;
+  border-radius: 50px;
+  opacity: 90%;
+}
+
+.showObj {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  right: 40px;
+  text-wrap: wrap;
+  font-size: 22px;
+  text-justify: auto;
+  text-align: justify;
+}
+
+.showObjFun {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  text-wrap: wrap;
+  font-size: 22px;
+  text-justify: auto;
+  text-align: justify;
+}
+
+#bookNow {
+  position: absolute;
+  bottom: 100px;
+  color: rgb(9, 7, 87);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#flights {
+  position: absolute;
+  bottom: 90px;
+  font-size: 20px;
+}
+
+#hotels {
+  position: absolute;
+  bottom: 60px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #f3f0ed;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+}

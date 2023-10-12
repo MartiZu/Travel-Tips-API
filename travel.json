@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Bangkok, Thailand",
+    "bestTimeToVisit": "Winter",
+    "funFact": "Bangkok's full name is the longest city name in the world, consisting of 169 characters.",
+    "id": "5fa2cd4e-99e6-4e4a-b735-a31383183879"
+  },
+  {
+    "name": "Dublin, Ireland",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Dublin's Temple Bar district is known for its vibrant nightlife and is a popular destination for live music and entertainment.",
+    "id": "b3752926-95d3-487a-b79e-d2e77b76b092"
+  },
+  {
+    "name": "London, United Kingdom",
+    "bestTimeToVisit": "Summer",
+    "funFact": "London is home to the world's oldest underground railway system, known as the London Underground or the Tube.",
+    "id": "efde90a8-2953-4a56-8c6b-ff29188db994"
+  },
+  {
+    "name": "Tokyo, Japan",
+    "bestTimeToVisit": "Spring",
+    "funFact": "Tokyo is the most populous city in the world, with over 37 million people living in the Greater Tokyo Area.",
+    "id": "26e4b096-29ee-4a44-af7b-5ae175f6c4a1"
+  },
+  {
+    "name": "Paris, France",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Paris is nicknamed the City of Light, not because of its electricity usage, but because it was one of the first cities in the world to have street lighting.",
+    "id": "8e2b4712-8d00-4ec0-8ae1-21ef09501f22"
+  },
+  {
+    "name": "New York City, United States",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "New York City is known as the Big Apple, a nickname that originated in the 1920s and refers to the city's popularity and success.",
+    "id": "b2e5f37f-e2d7-475e-a89d-2d714f60334f"
+  },
+  {
+    "name": "Rome, Italy",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Rome is home to the smallest country in the world, Vatican City, which is an independent city-state enclaved within Rome.",
+    "id": "07f62812-4faf-499e-a7c4-60994b0b137d"
+  },
+  {
+    "name": "Sydney, Australia",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Sydney is home to the Sydney Opera House, one of the most famous and distinctive buildings in the world.",
+    "id": "29fcdee2-cde6-4784-9ec9-9478418332c1"
+  },
+  {
+    "name": "Cairo, Egypt",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Cairo is home to the Great Pyramid of Giza, the oldest and largest of the three pyramids in the Giza pyramid complex.",
+    "id": "294bb008-310e-4b5b-a0cd-32e89d42b151"
+  },
+  {
+    "name": "Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Rio de Janeiro is known for its iconic statue of Christ the Redeemer, which stands atop the Corcovado mountain and overlooks the city.",
+    "id": "0e7d2880-2473-493a-bc58-e38da7fc6cad"
+  },
+  {
+    "name": "Dubai, United Arab Emirates",
+    "bestTimeToVisit": "Winter",
+    "funFact": "Dubai is home to the world's tallest building, the Burj Khalifa, which stands at a height of 828 meters (2,717 feet).",
+    "id": "5aef592d-4ba6-4c0c-ae99-1e47ba41f594"
+  },
+  {
+    "name": "Moscow, Russia",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Moscow is home to the Red Square, a UNESCO World Heritage Site and a historic center of the city.",
+    "id": "56f2077b-1fd6-436d-842d-17f35a87a0dd"
+  },
+  {
+    "name": "Barcelona, Spain",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Barcelona is famous for its unique architecture, including the iconic works of Antoni Gaudí, such as the Sagrada Família and Park Güell.",
+    "id": "978c56b4-f5f0-4997-b405-6d3dbf29a4fa"
+  },
+  {
+    "name": "Istanbul, Turkey",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Istanbul is the only city in the world that straddles two continents, Europe and Asia, with the Bosphorus Strait separating the two.",
+    "id": "5476ccb9-58b7-4c96-85c3-c678d493a354"
+  },
+  {
+    "name": "Mumbai, India",
+    "bestTimeToVisit": "Winter",
+    "funFact": "Mumbai is the financial capital of India and is home to Bollywood, the largest film industry in the world.",
+    "id": "967e0e9e-c204-4b12-9456-cefbdc9e0bdb"
+  },
+  {
+    "name": "Cape Town, South Africa",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Cape Town is famous for its stunning natural beauty, including Table Mountain and the Cape of Good Hope.",
+    "id": "daaed3fb-2e8e-466c-9af2-539ddea31e27"
+  },
+  {
+    "name": "Seoul, South Korea",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Seoul is known for its cutting-edge technology, vibrant street food culture, and ancient palaces, such as Gyeongbokgung and Changdeokgung.",
+    "id": "726b3e37-1349-4acd-ad57-f66337ce68a1"
+  },
+  {
+    "name": "Mexico City, Mexico",
+    "bestTimeToVisit": "Spring",
+    "funFact": "Mexico City is one of the largest cities in the world and is home to the ancient Aztec ruins of Templo Mayor.",
+    "id": "358948a3-ea9b-49ab-a9b6-d532deb9e61d"
+  },
+  {
+    "name": "Amsterdam, Netherlands",
+    "bestTimeToVisit": "Spring and Summer",
+    "funFact": "Amsterdam is famous for its picturesque canals, historic houses, and world-class museums, such as the Van Gogh Museum and the Anne Frank House.",
+    "id": "905a8d3b-9c89-448a-9a8b-a3f739060b31"
+  },
+  {
+    "name": "Singapore, Indonesia",
+    "bestTimeToVisit": "Year-round",
+    "funFact": "Singapore is known as the Garden City for its abundance of green spaces and is home to the iconic Marina Bay Sands resort.",
+    "id": "3ed24107-df4e-4ce3-8d83-adce3aaf9982"
+  },
+  {
+    "name": "Toronto, Canada",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Toronto is the largest city in Canada and is known for its diverse culture, iconic landmarks like the CN Tower, and the Toronto International Film Festival.",
+    "id": "0734be38-ef02-4ac4-9c83-3652902f4d2a"
+  },
+  {
+    "name": "Hanoi, Vietnam",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Hanoi is the capital of Vietnam and is famous for its rich history, French colonial architecture, and delicious street food, including pho and banh mi.",
+    "id": "353f686b-b871-4be3-b17d-1f0c1e675f6b"
+  },
+  {
+    "name": "Rio de Janeiro, Brazil",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Rio de Janeiro is known for its beautiful beaches, vibrant carnival celebrations, and iconic landmarks like the Christ the Redeemer statue.",
+    "id": "ec5a4a86-b824-4bbf-a855-6c2e1fbdd07b"
+  },
+  {
+    "name": "Tokyo, Japan",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Tokyo is a bustling metropolis that seamlessly blends traditional culture with modern technology. It offers a wide variety of experiences, from historic temples to futuristic districts like Shinjuku and Shibuya.",
+    "id": "b5ba959a-45cc-4cea-b15e-28405fc33286"
+  },
+  {
+    "name": "Berlin, Germany",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Berlin is a city with a rich history and a thriving arts scene. It is known for its iconic landmarks like the Brandenburg Gate, the Berlin Wall, and the vibrant street art.",
+    "id": "2d96e292-baa1-4c97-9509-efa1bebaaab5"
+  },
+  {
+    "name": "Buenos Aires, Argentina",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Buenos Aires is the capital of Argentina and is famous for its tango music and dance, vibrant nightlife, and European-inspired architecture.",
+    "id": "4583236f-fc51-472d-8be2-64fde1ec6072"
+  },
+  {
+    "name": "Rome, Italy",
+    "bestTimeToVisit": "Spring and Autumn",
+    "funFact": "Rome is a city steeped in history and is home to iconic landmarks like the Colosseum, the Roman Forum, and the Vatican City with St. Peter's Basilica and the Sistine Chapel.",
+    "id": "820d9ad0-ed2e-4926-bfd2-4733ce1da16d"
+  },
+  {
+    "name": "Stockholm, Sweden",
+    "bestTimeToVisit": "Summer",
+    "funFact": "Stockholm is known as the 'Venice of the North' due to its numerous islands and canals. It is a city with a rich cultural heritage, modern design, and beautiful natural surroundings.",
+    "id": "076577ee-2f86-4810-8960-00ed6f88fbdf"
+  },
+  {
+    "name": "Cusco, Peru",
+    "bestTimeToVisit": "Dry season (May to September)",
+    "funFact": "Cusco was the capital of the Inca Empire and is now a gateway to the famous Machu Picchu. It has a blend of Inca and Spanish colonial architecture and is surrounded by stunning landscapes.",
+    "id": "0217fa81-6ba3-4a9a-aea9-44dd0c8cf59d"
+  },
+  {
+    "name": "Marrakech, Morocco",
+    "bestTimeToVisit": "Spring (March to May) and Autumn (September to November)",
+    "funFact": "Marrakech is a bustling city in Morocco known for its vibrant markets, traditional architecture, and rich cultural heritage. It is famous for its vibrant souks and the iconic Jardin Majorelle.",
+    "id": "53fb7e77-8c37-4c47-9aa5-0aead8677ba3"
+  },
+  {
+    "name": "Vancouver, Canada",
+    "bestTimeToVisit": "Summer (June to August)",
+    "funFact": "Vancouver is a coastal city in Canada known for its stunning natural beauty, including mountains, forests, and the Pacific Ocean. It is a vibrant city with a thriving arts and food scene.",
+    "id": "1c97d938-c9d3-45d3-b6ed-eec4881ba12f"
+  },
+  {
+    "name": "Budapest, Hungary",
+    "bestTimeToVisit": "Spring (April to June) and Autumn (September to October)",
+    "funFact": "Budapest is the capital of Hungary and is famous for its stunning architecture, thermal baths, and the beautiful Danube River. It is a city that offers a mix of history, culture, and culinary delights.",
+    "id": "1aa572ab-f81a-4428-9c6a-b673bcfc5ed9"
+  },
+  {
+    "name": "Krakow, Poland",
+    "bestTimeToVisit": "Spring (April to June) and Autumn (September to October)",
+    "funFact": "Krakow is a historic city in Poland known for its well-preserved medieval architecture and rich cultural heritage. It is home to the famous Wawel Castle and the historic Old Town.",
+    "id": "b171da14-c242-44c4-b656-c5c837b4666a"
+  },
+  {
+    "name": "San Francisco, United States",
+    "bestTimeToVisit": "Spring (March to May) and Autumn (September to November)",
+    "funFact": "San Francisco is a vibrant city in California known for its iconic Golden Gate Bridge, hilly landscape, and diverse culture. It is a hub for technology, arts, and culinary experiences.",
+    "id": "440cb4b6-d11a-44c7-af84-5f9192fc165d"
+  },
+  {
+    "name": "Athens, Greece",
+    "bestTimeToVisit": "Spring (April to June) and Autumn (September to October)",
+    "funFact": "Athens is the capital of Greece and is famous for its ancient history and iconic landmarks, including the Acropolis, the Parthenon, and the Temple of Olympian Zeus.",
+    "id": "c2ce1a53-85d5-4290-b85f-d90188014f40"
+  },
+  {
+    "name": "Copenhagen, Denmark",
+    "bestTimeToVisit": "Summer (June to August)",
+    "funFact": "Copenhagen is the capital of Denmark and is known for its beautiful canals, historic architecture, and progressive design. It is a city that prides itself on sustainability and quality of life.",
+    "id": "6a8032ab-6240-4cb0-8451-b916c1bf92f9"
+  },
+  {
+    "name": "Auckland, New Zealand",
+    "bestTimeToVisit": "Summer (December to February)",
+    "funFact": "Auckland is the largest city in New Zealand and is known for its stunning natural landscapes, including volcanic cones, beautiful harbors, and nearby islands. It offers a mix of outdoor adventures and urban experiences.",
+    "id": "c0d31824-bdce-4080-8376-82cd962bbbcb"
+  }
+]

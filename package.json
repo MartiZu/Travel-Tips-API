@@ -1,0 +1,24 @@
+{
+  "name": "recap_node-express_week-4",
+  "version": "1.0.0",
+  "description": "The goal is to build an API that allows callers to perform CRUD operations against a collection of users. Take the time to familiarise yourself with the existing codebase, including any NPM scripts that have already been set up for you.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "rundev": "^0.0.0"
+  },
+  "keywords": []
+}
