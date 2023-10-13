@@ -11,7 +11,7 @@ import {
 } from "./travel.js";
 
 const app = express();
-const port = 5501;
+
 
 app.use(morgan("dev"));
 app.use(express.json());
@@ -147,6 +147,3 @@ app.patch("/travel/:id", async function (req, res) {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
-});
