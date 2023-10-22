@@ -1,6 +1,6 @@
 import express from "express";
 
-import * as travelController from "../controllers/travelController.js";
+import * as travelController from "../controllers/travelControllers.js";
 
 export const travelRoutes = express.Router();
 

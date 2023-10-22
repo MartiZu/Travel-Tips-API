@@ -9,3 +9,9 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 app.use("/travel", travelRoutes);
+
+const port = 5500;
+
+app.listen(port, () => {
+  console.log(`Server listening on port ${port}`);
+});
