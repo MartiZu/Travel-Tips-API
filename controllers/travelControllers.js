@@ -68,7 +68,7 @@ export async function updateTravelByID(req, res) {
   const updatedUser = await travelModel.updateTravelByID(
     req.params.id,
     name,
-    bestTimeToVisit,
+    (bestTimeToVisit = "Unknown"),
     funFact
   );
   if (!updatedUser) {

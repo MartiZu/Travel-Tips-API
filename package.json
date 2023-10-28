@@ -1,17 +1,17 @@
 {
-  "name": "recap_node-express_week-4",
+  "name": "this-is-a-travel-api",
   "version": "1.0.0",
-  "description": "The goal is to build an API that allows callers to perform CRUD operations against a collection of users. Take the time to familiarise yourself with the existing codebase, including any NPM scripts that have already been set up for you.",
-  "main": "app.js",
+  "description": "Travel tip API",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "uuid": "^9.0.1"

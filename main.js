@@ -1,5 +1,5 @@
 //define my base URL with endpoint /travel
-const URL = "http://localhost:5500/travel";
+const URL = "http://localhost:7000/travel";
 
 //make a request to the end point
 async function getJSONData() {
