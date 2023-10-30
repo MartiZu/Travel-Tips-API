@@ -1,99 +1,74 @@
-//file to perform CRUD operations
-
-import fs from "node:fs/promises";
-import { v4 as uuidv4 } from "uuid";
-
-const fileName = "travel.json";
+import { pool } from "../db/index.js";
 
 export async function getTravels() {
-  //specify file reading
-  const JSONdata = await fs.readFile(fileName);
-  //parse data
-  const travelList = JSON.parse(JSONdata);
-  //debug
-  console.log(travelList);
-  //return parsed data
-  return travelList;
+  // Define the SQL query to fetch all data from the travel table
+  const queryText = "SELECT * FROM travel";
+  // Use the pool object to send the query to the database
+  const result = await pool.query(queryText);
+  // The rows property of the result object contains the retrieved records
+  console.log(result);
+  return result.rows;
 }
 
-export async function getTravelById(id) {
-  //read JSON file in JSON language
-  const JSONdata = await fs.readFile(fileName);
-  //parse JSON in JS
-  const listObj = JSON.parse(JSONdata);
-  for (let i = 0; i < listObj.length; i++) {
-    //if the URL id = the id key in the array
-    if (listObj[i].id === id) {
-      //return the id element
-      console.log(listObj[i]);
-      return listObj[i];
-    }
+export async function getTravelById() {
+  // Define the SQL query to fetch data from the travel table by id
+  const queryText = "SELECT * FROM travel WHERE id = $1 RETURNING *";
+  //await the pool query back from the db
+  const result = await pool.query(queryText, [id]);
+  //return the item if found
+  if (result.rowCount === 0) {
+    return null;
   }
-  //else return the ID does not exist
-  return null;
+  return result.rows[0];
 }
 
-export async function createTravel(name, bestTimeToVisit, funFact) {
-  //get promise JSON data
-  const JSONdata = await fs.readFile(fileName);
-  // parse data
-  const fileList = JSON.parse(JSONdata);
-  //create new object
-  const newObjCreated = {
-    id: uuidv4(),
-    name,
-    bestTimeToVisit,
-    funFact,
-  };
-  //push new data in the List
-  fileList.push(newObjCreated);
-  //write list back in JSON
-  const newJSONData = JSON.stringify(fileList);
-  //return added file back in the JSON file
-  console.log(newJSONData);
-  await fs.writeFile(fileName, newJSONData);
-  return newObjCreated;
+//POST function to add new value in the travelgettravel table
+export async function createTravel(travel) {
+  // Query the database to create an travelgettravel and return the newly created travelgettravel
+  const queryText =
+    "INSERT INTO travel (city, country, best_time_to_visit, fun_fact, imglink, not_to_miss) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *";
+  //define elements of the request and placeholder values
+  const result = await pool.query(queryText, [
+    travel.city,
+    travel.country,
+    travel.best_time_to_visit,
+    travel.fun_fact,
+    travel.imglink,
+    travel.not_to_miss,
+  ]);
+  //return result
+  return result.rows[0] || null;
 }
 
-export async function updateTravelByID(
-  id,
-  newname,
-  newbestTimeToVisit,
-  newfunFact
-) {
-  const JSONdata = await fs.readFile(fileName);
-  const parsedData = JSON.parse(JSONdata);
-  for (let i = 0; i < parsedData.length; i++) {
-    if (parsedData[i].id === id) {
-      //remove [i]
-      parsedData[i].name = newname;
-      parsedData[i].bestTimeToVisit = newbestTimeToVisit;
-      parsedData[i].funFact = newfunFact;
-      //write data back in JSON
-      const newDataInJSON = JSON.stringify(parsedData);
-      //send back to JSON file
-      await fs.writeFile(fileName, newDataInJSON);
-      return parsedData[i];
-    }
+export async function deleteTravelById(id) {
+  // Delete item by id
+  const deleteTravelQuery = "DELETE FROM travel WHERE id = $1 RETURNING *";
+  const result = await pool.query(deleteTravelQuery, [id]);
+  // Return the deleted item or null
+  if (result.rowCount === 0) {
+    return null;
   }
-  return null;
+  return result.rows[0];
 }
 
-export async function deleteTravelByID(id) {
-  //get data from JSON
-  const JSONdata = await fs.readFile(fileName);
-  //parse data
-  const parsedData = JSON.parse(JSONdata);
-  for (let i = 0; i < parsedData.length; i++) {
-    if (parsedData[i].id === id) {
-      //remove [i]
-      parsedData.splice([i], 1);
-      //write data back in JSON
-      const newDataInJSON = JSON.stringify(parsedData);
-      //send back to JSON file
-      await fs.writeFile(fileName, newDataInJSON);
-      return true;
-    }
+export async function updateTravelById(id, update) {
+  //store new data in deconstructed obj
+  const { city, country, best_time_to_visit, fun_fact, imglink, not_to_miss } =
+    update;
+  const queryText =
+    "UPDATE travel SET city = $1, country = $2, best_time_to_visit = $3, fun_fact = $4, imglink = $5, not_to_miss = $6";
+  const result = await pool.query(queryText, [
+    city,
+    country,
+    best_time_to_visit,
+    fun_fact,
+    imglink,
+    not_to_miss,
+    id,
+  ]);
+  //return result
+  if (result.rowCount === 0) {
+    return null;
   }
-  return false;
+  return result.rows[0];
 }
