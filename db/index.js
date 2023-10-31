@@ -1,6 +1,8 @@
 // Import the pg (node-postgres) library
 import pg from "pg";
 
+import { config } from "dotenv";
+config();
 // Retrieve the database connection string from environment variables
 const connectionString = process.env.DB_CONNECTION_STRING;
 

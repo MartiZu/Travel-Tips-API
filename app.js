@@ -3,6 +3,9 @@ import express from "express";
 import morgan from "morgan";
 import cors from "cors";
 
+import { config } from 'dotenv';
+config();
+
 //import all routes from their files
 import { travelRoutes } from "./routes/travelRoutes.js";
 

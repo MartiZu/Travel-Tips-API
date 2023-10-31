@@ -11,6 +11,6 @@ travelRoutes.get("/:id", travelController.getTravelById);
 
 travelRoutes.post("/", travelController.createTravel);
 
-travelRoutes.patch("/:id", travelController.updateTravelByID);
+travelRoutes.patch("/:id", travelController.updateTravelById);
 
-travelRoutes.delete("/:id", travelController.deleteTravelByID);
+travelRoutes.delete("/:id", travelController.deleteTravelById);

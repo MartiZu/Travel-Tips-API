@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "reset-database": "node -r dotenv/config db/scripts/reset-database.js"
+    "reset-database": "node -r dotenv/config db/scripts/reset-database.js",
+    "test-app": "vitest public/travel.test.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +22,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
-    "rundev": "^0.0.0"
+    "rundev": "^0.0.0",
+    "supertest": "^6.3.3",
+    "vitest": "^0.34.6"
   },
   "keywords": []
 }

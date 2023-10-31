@@ -69,7 +69,7 @@ export async function createTravel(req, res) {
   }
 }
 
-export async function deleteTravelByID(req, res) {
+export async function deleteTravelById(req, res) {
   try {
     const deletedData = await travelModel.deleteTravelById(req.params.id);
     //store return value in a variable
@@ -89,7 +89,7 @@ export async function deleteTravelByID(req, res) {
   }
 }
 
-export async function updateTravelByID(req, res) {
+export async function updateTravelById(req, res) {
   try {
     const data = req.body;
     const id = req.params.id;
