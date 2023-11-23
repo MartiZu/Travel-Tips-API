@@ -3,7 +3,7 @@ import * as travelModel from "../models/travelModel.js";
 export async function getTravels(req, res) {
   //specify the path
   try {
-    const responseData = await travelModel.geTtravel();
+    const responseData = await travelModel.getTravels();
     res.status(200).json({ status: "success", data: responseData });
     console.log(responseData);
   } catch (error) {
