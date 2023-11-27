@@ -44,14 +44,14 @@ export async function createTravel(req, res) {
       imglink,
       not_to_miss,
     } = req.body;
-    const addTravel = await travelModel.createTravel(
+    const addTravel = await travelModel.createTravel({
       city,
       country,
       best_time_to_visit,
-      (fun_fact = "Unknown"),
-      (imglink = "Unavailable"),
+      fun_fact,
+      imglink,
       not_to_miss
-    );
+  });
     if (!addTravel) {
       res.status(400).json({
         status: "fail",
