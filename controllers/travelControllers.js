@@ -16,6 +16,8 @@ export async function getTravelById(req, res) {
   try {
     //await promise from userbyid function and store it in a variable
     const travelObj = await travelModel.getTravelById(req.params.id);
+    console.log(travelObj);
+    console.log(req.params.id);
     //handle errors if no id
     if (!travelObj) {
       return res.status(404).json({
@@ -29,6 +31,7 @@ export async function getTravelById(req, res) {
       data: travelObj,
     });
   } catch (error) {
+    console.error("Error:", error);
     // Handle the error and send an appropriate response
     res.status(500).json({ status: "error", message: error.message });
   }
@@ -50,8 +53,8 @@ export async function createTravel(req, res) {
       best_time_to_visit,
       fun_fact,
       imglink,
-      not_to_miss
-  });
+      not_to_miss,
+    });
     if (!addTravel) {
       res.status(400).json({
         status: "fail",

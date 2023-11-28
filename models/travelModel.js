@@ -10,16 +10,21 @@ export async function getTravels() {
   return result.rows;
 }
 
-export async function getTravelById() {
-  // Define the SQL query to fetch data from the travel table by id
-  const queryText = "SELECT * FROM travel WHERE id = $1 RETURNING *";
-  //await the pool query back from the db
-  const result = await pool.query(queryText, [id]);
-  //return the item if found
-  if (result.rowCount === 0) {
-    return null;
+export async function getTravelById(id) {
+  try {
+    // Define the SQL query to fetch data from the travel table by id
+    const queryText = "SELECT * FROM travel WHERE id = $1";
+    //await the pool query back from the db
+    const result = await pool.query(queryText, [id]);
+    //return the item if found
+    if (result.rowCount === 0) {
+      return null;
+    }
+    return result.rows[0];
+  } catch (error) {
+    // Handle errors, log or throw as needed
+    throw error;
   }
-  return result.rows[0];
 }
 
 //POST function to add new value in the travelgettravel table
